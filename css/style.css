@@ -1,0 +1,200 @@
+.navbar{
+    color: white;
+}
+
+.main-header{
+    background-image: url("../img/ryse-bg.png");
+    height: initial;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 155px 0;
+    }
+.heading{
+    font-family: Roboto, sans-serif;
+}
+
+.heading-header{
+font-size: 45px;
+font-weight: 500;
+line-height:55px;
+letter-spacing:-.4px;
+color: rgb(255, 255, 255);
+}
+
+.heading-paragraph, .heading-link{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.heading-link{
+    text-decoration: underline;
+}
+.main-first-section{
+    position: relative;
+}
+
+.white-card{
+background-color: #fff;
+border-radius: 15px;
+margin: 10px;
+padding: 30px;
+text-align: center;
+}
+
+.white-card-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.card-job-ready{
+margin-top: -120px;
+}
+.card-real-projects{
+    margin-top: -90px;
+}
+.card-financial-independence{
+    margin-top: 70px;
+}
+.card-img{
+    object-fit: contain;
+}
+/*///////////////////second-section/////////////////////*/
+.second-section-left{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+}
+.second-section-right{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    position: relative;
+    padding-left: 7%;
+}
+button{
+    color: #3597f5;
+    text-align: center;
+    cursor: pointer;
+    border: #3597f5 0.5px;
+    width: 180px;
+}
+.blue-circle{
+    background-color: #3597f5;
+    clip-path: circle(50% at 50% 50%);
+    height: 180px;
+    width: 180px;
+    padding: 17px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    z-index: 2;
+    margin-top: -60px;
+}
+/*///////////////////third-section/////////////////////*/
+.main-third-section{
+
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+  }
+.vink{
+    display: inline;
+    max-height: 35px;
+}
+.grid-item{
+    display: flex;
+    flex-direction: row;
+}
+.grid-text-content{
+    display: inline;
+    padding-left: 15px;
+}
+/*///////////////////fourth-section/////////////////////*/
+.main-fourth-section{
+    background: #2F58B5;
+    color: white;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    background-image: url("../img/seven-video-leaf-new.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: center;
+    
+}
+
+.subheader-blue{
+    color: rgb(185, 185, 185);
+    display: block;
+}
+.heading-block{
+    display: block;
+}
+
+.grid-container2{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 30px;
+}
+
+
+.video-section{
+    margin-top: -150px;
+    padding-bottom: 250px;
+}
+/*///////////////////seventh-section/////////////////////*/
+
+.main-seventh-section{
+    background-image: url("../img/background.jpg");
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 300px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.main-eight-section{
+    background-color: black;
+}
+
+.col-white{
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+.footer-section{
+    background-color: #09143F;
+    color: white;
+}
+
+.footer-hr{
+    color:white;
+    width: 100%;
+    height: 5px;
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.footer-logo-links{
+    max-height: 25px;
+    margin: 5px;
+}
+.footer ul{
+    list-style-type: none;
+    color: white;
+}
